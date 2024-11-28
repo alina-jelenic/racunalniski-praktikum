@@ -46,9 +46,9 @@
 	% boste lahko oblikovali vse tri vrstice hkrati.
 	Nariši grafe funkcij:
 	\begin{align*}
-		y = x^2 - 3|x| + 2    y = 3 \sin(\pi+x) - 2 \\
-		y = \log_2(x-2) + 3   y = 2 \sqrt{x^2+15} + 6 \\
-		y = 2^{x-3} + 1       y = \cos(x-3) + \sin^2(x+1) \\
+		y &= x^2 - 3|x| + 2  &  y &= 3 \sin(\pi+x) - 2 \\
+		y &= \log_2(x-2) + 3 &  y &= 2 \sqrt{x^2+15} + 6 \\
+		y &= 2^{x-3} + 1     &  y &= \cos(x-3) + \sin^2(x+1) \\
 	\end{align*}
 	
 	
@@ -59,22 +59,29 @@
 	% Oblikujte spodnje enačbe z ustreznim okoljem,
 	% da bo enačba oblikovana kot v rešitvah.
 	Poišči vse rešitve enačbe
-	\[
-	(1+x+x^2) \cdot (1+x+x^2+x^3+\ldots+x^9+x^{10}) = 
-	=(1+x+x^2+x^3+x^4+x^5+x^6)^2.
-	\]
+	\begin{multline*}
+		(1+x+x^2) \cdot (1+x+x^2+x^3+\ldots+x^9+x^{10}) = \\
+		=(1+x+x^2+x^3+x^4+x^5+x^6)^2.
+	\end{multline*}
 \end{frame}
 
 \begin{frame}{Okolje \texttt{cases}}
 	% Naloga 3.2.5:
 	% Oblikujte spodnji funkcijski predpis z ustreznim okoljem,
 	% da oblikovan kot v rešitvah.
-	Dana je funkcija
+	Dana je funkcija:
+	\[
+	f(x,y)=\begin{cases}
+		\frac{3x^2y-y^3}{x^2+y^2}; & (x,y) \neq (0,0) \\
+		a; & (x,y) = (0,0)
+	\end{cases}
+	\]
 	
 		% \frac{3x^2y-y^3}{x^2+y^2}
 		
 	\begin{itemize}
-		% ukaz displaystyle preklopi v prikazni način v vrstici. 
+		% ukaz displaystyle preklopi v prikazni način v vrstici.
+	 
 	\item Določi $a$, tako da izračunaš limito \( \lim_{(x,y)\to(0,0)} f(x). \)
 	\item Izračunaj parcialna odvoda $f_x(x,y)$ in $f_y(x,y)$.
 	\end{itemize}
