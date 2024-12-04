@@ -13,6 +13,8 @@
 - Preklaplanje med okni: Alt + Tab ;
 - Zapiranje programa: Alt + F4
 
+## Moja spletna stran
+[alina-jelenic](https://alina-jelenic.github.io)
 
 <!-- 2. nivojski razdelek -->
 ## Izvorna koda
